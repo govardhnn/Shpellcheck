@@ -1,0 +1,17 @@
+== Pre-Requisites
+
+``` sudo apt install dict ```
+or
+``` sudo yum install dict ```
+
+== Usage
+
+=== To print the spelling errors on the CLI
+
+``` ./shpellcheck <your_doc> ```
+
+-> indicates the line number to spelling errors - if any
+
+=== To Log the spelling error
+
+``` ./shpellcheck <your_doc> > output.log```
