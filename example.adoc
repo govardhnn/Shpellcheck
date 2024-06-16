@@ -1,0 +1,4 @@
+Hi, this is an example text file
+Note that this spell checkr indicates
+the line numbr of the error
+and works even if there are punctuatns!

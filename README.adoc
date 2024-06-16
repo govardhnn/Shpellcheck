@@ -1,17 +1,22 @@
+= Lightweight Spell Checker
+
+Shpellcheck is a CLI utility written in bash to check spelling errors and print the corresponding line number on the output. 
+
 == Pre-Requisites
 
-``` sudo apt install dict ```
-or
-``` sudo yum install dict ```
+Install dict
 
+    sudo apt install dict
+    
 == Usage
 
-=== To print the spelling errors on the CLI
+    ./shpellcheck <your_doc>
 
-``` ./shpellcheck <your_doc> ```
+Example:
 
--> indicates the line number to spelling errors - if any
+    $ ./shpellcheck.sh example.adoc 
+    Line 2: 'checkr' is misspelled
+    Line 3: 'numbr' is misspelled
+    Line 4: 'punctuatns!' is misspelled
 
-=== To Log the spelling error
 
-``` ./shpellcheck <your_doc> > output.log```
